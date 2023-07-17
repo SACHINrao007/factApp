@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    background: black;
+    overflow: hidden;
+  }
+  
+  a{
+    font-weight: bold;
+    color: white;
+    margin-right: 15px;
+  }
+
+ 
+  
+  /* .navbar-expand-md{
+    
+    background-color: rgba(243, 242, 248, 0.2);
+  } */
+  .footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(36, 35, 34);
+    color: white;
+    text-align: center;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  #footer {
+    flex: 0 0 50px;
+    /*or just height:50px;*/
+    margin-top: auto;
+  }
+
+  .jumbotron {
+    background-color: rgba(37, 32, 112, 0.2);
+    background-size: cover;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .jumbotron p{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: white;
+  }
+
+
+  input {
+    border-radius: 25px
+  }
+
+  .bs-example {
+    margin: 0px;
+  }
+  .col-sm a{
+    margin: 4px;
+  }
+  
+  .wrap {
+    position: relative;
+    height: 100%;
+  }
+  
+  
+
+
+
+
+ 
